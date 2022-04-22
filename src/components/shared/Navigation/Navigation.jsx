@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from "./Navigation.module.scss"
-const BASE_CLASS = 'navbar'
+
+//components
+import BrandLogo from '../BrandLogo/BrandLogo'
 
 const Navigation = () => {
-
-
   return (
-    <nav className={`${styles[BASE_CLASS]} container`}>
+    <nav className={`${styles.navbar} container`}>
       <Link to="/">
-        <img src="" alt="" />
-        <span>Live <span className={styles[`${BASE_CLASS}__text_highlight`]}>Meetup</span></span>
+        <BrandLogo />
       </Link>
     </nav>
   )

@@ -1,0 +1,11 @@
+@import "./../../../variables.scss";
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  &__text_highlight {
+    color: $primary-text;
+    padding-left: 0.3rem;
+  }
+}

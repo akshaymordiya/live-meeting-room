@@ -1,11 +1,4 @@
-@import "./../../../variables.scss";
 
 .navbar {
  padding: 1.5rem 0;
- font-size: 1.5rem;
- font-weight: bold;
-
- &__text_highlight {
-   color: $primary-text;
- }
 }

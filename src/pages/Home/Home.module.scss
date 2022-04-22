@@ -1,0 +1,24 @@
+@import "../../variables.scss";
+
+
+.cardWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  .text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: $secondary-text;
+  }
+
+  .invite {
+    gap: 1rem;
+    
+    &__link {
+      color: $primary-text;
+      margin-left: 0.5rem;
+      font-weight: bold;
+    }
+  }
+}
