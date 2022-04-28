@@ -5,10 +5,11 @@ import styles from "./Button.module.scss"
 const Button = ({
   text,
   icon,
-  iconProps
+  iconProps,
+  ...btnProps
 }) => {
   return (
-    <button className={styles.btn}>
+    <button className={styles.btn} {...btnProps}>
       <span className={styles.btn_text}>{text}</span>
       {icon && (
         <Icon
